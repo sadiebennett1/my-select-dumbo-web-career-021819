@@ -5,6 +5,7 @@ def my_select(collection)
     var = yield collection[i]
     if var == true
       new_arr << var
+    end
     i += 1
   end
   new_arr
